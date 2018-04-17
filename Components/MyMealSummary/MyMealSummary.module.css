@@ -1,0 +1,69 @@
+.summary-container{
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.summary-header{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.my-meal{
+
+	font-size:40px;
+
+}
+
+.close-button{
+	font-size:40px;
+	cursor: pointer;
+}
+
+.summary-body{
+
+	display: flex;
+	flex-direction: column;
+}
+
+.column-titles{
+
+	display: flex;
+
+}
+.title{
+	width:50%;
+
+}
+
+.items{
+	display: flex;
+	flex-direction:column;
+}
+
+
+
+
+.total-cont{
+	display: flex;
+	justify-content: flex-end;
+	margin-top: 5px;
+}
+
+.total-item{
+	width:50%;
+	height:20px;
+	padding:5px 15px;
+border-left:white 5px solid;
+display: flex;
+}
+
+.total-item span{
+	margin-left: auto;
+}
+
+.total{
+	background-color: gray;
+
+}

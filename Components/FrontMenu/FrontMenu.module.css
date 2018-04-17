@@ -1,0 +1,27 @@
+.food-category-container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+.food-category-container h1{
+	color: #E97724;
+	text-align:center;
+}
+
+
+.food-items-container{
+	display:flex;
+	flex-direction:row;
+	flex-wrap: wrap;
+}
+
+
+
+.max1000{
+	max-width:1000px;
+	width:100%;
+}
+
+

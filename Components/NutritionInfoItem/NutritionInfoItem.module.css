@@ -1,0 +1,18 @@
+.ind-info{
+	font-family: arial;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top: 10px;
+	background-color: #E5E5E5;
+	height:35px;
+	font-weight:bold;
+	color: #444242;
+}
+
+.ind-info:first-of-type{
+	margin-left: 0;
+}

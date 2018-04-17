@@ -1,0 +1,37 @@
+.item-cont{
+
+	display: flex;
+
+
+}
+
+.remove-button{
+
+	border-radius:100%;
+	background-color: gray;
+	color:white;
+	width:20px;
+	height:20px;
+	display: flex;
+	justify-content: center;
+	margin-right: 10px;
+	cursor: pointer;
+
+}
+
+
+
+.item-name, .item-calories{
+	
+	width:45%;
+	border-bottom:white 5px solid;
+	border-left:white 5px solid;
+	background-color: #E1E1E1;
+	height:20px;
+	padding:5px 15px;
+	display: flex;
+
+}
+
+
+

@@ -1,0 +1,259 @@
+ .max1000{
+	max-width:1000px;
+	width:100%;
+}
+
+
+ .selected-menu-item-container{
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	
+}
+
+ .selected-item-jumbotron{
+		display: none;
+		position: relative;
+		padding:5% 5%;
+	}
+ .close-button{
+	position: absolute;
+	top:20px;
+	right:5%;
+	font-size: 2em;
+	color: #E97724;
+}
+
+ .chicken-jumbotron{
+	padding: 20px 5%;
+}
+
+ .chicken-jumbo-container{
+	display: flex;
+	flex-direction: column;
+	
+}
+
+ .chicken-heading{
+	display: flex;
+	justify-content: flex-start;
+	width:90%;
+}
+
+ .chicken-picture{
+	display: flex;
+	justify-content: flex-end;
+
+}
+
+ .chicken-picture img{
+	width:100%;
+	max-width: 500px;
+	height:auto;
+}
+
+ .share-cont {
+	display:none;
+}
+
+ .mobile-chicken-blurb-and-share{
+	display: flex;
+	flex-direction:column;
+	padding-top:30px;
+	padding-left:20px;
+	padding-right:20px;
+	
+}
+
+ .share-cont-mobile{
+	align-self: center;
+	display: flex;
+	flex-direction:column;
+	align-items:  center;
+
+}
+
+ .social-container-mobile{
+	padding-top:10px;
+}
+
+ .social-container a img,  .social-container-mobile a img {
+		height:35px;
+		width:35px;
+	}
+
+ .button-container{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+ .button-container h2{
+	margin:0;
+	padding:20px 10px;
+	background-color:  #E97724;
+	color:white;
+	cursor: pointer;
+}
+
+ .nutrition-info-button{
+	
+	
+}	
+
+ .nutrition-info{
+	display: flex;
+	flex-direction:column;
+	padding:30px 20px;
+}
+
+ .nutr-reveal-close{
+	padding-left: 10px;
+	display: flex;
+	align-items: center;
+}
+
+ .nutrition-title-container{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+ .nutrition-title-container span{
+	font-size:40px;
+	color: #E97724;
+}
+
+ .nutrition-and-customize-cont{
+	
+}
+
+ .customizer-container{
+	background-color: #E5E5E5;
+	display: flex;
+	flex-direction: column;
+
+}
+
+ .cust-heading-cont{
+	display: flex;
+	justify-content: center;
+
+}
+
+ .selection-container{
+	padding-left:15px;
+	padding-right:15px;
+}
+
+
+
+ .nutrition-info-container{
+	display: flex;
+	flex-direction: column;
+}
+
+.ind-info{
+	font-family: arial;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding-left:15px;
+	padding-right:15px;
+	margin-top: 10px;
+	background-color: #E5E5E5;
+	height:35px;
+	font-weight:bold;
+	color: #444242;
+}
+
+.ind-info:first-of-type{
+	margin-left: 0;
+}
+
+ .allergy-container{
+	padding-top: 20px;
+	font-family: arial;
+}
+
+ .allergy-div span{
+	font-weight: bold;
+
+}
+
+ .download-nutr-info{
+	padding-top: 20px;
+
+}
+
+ .download-nutr-info span{
+	color: #E97724;
+}
+
+ .availability{
+	padding-top: 20px;
+}
+
+ .meal-button-container{
+	display: flex;
+	justify-content: flex-end;
+	padding-right: 10px;
+	padding-bottom:10px;
+
+}
+
+ .add-to-meal{
+	background-color:  #885334;
+	padding:10px;
+	color:white;
+	font-family: arial;
+	font-weight: bold;
+	margin-right:15px;
+	cursor:pointer;
+
+}
+
+ .show-my-meal{
+	background-color:  #F2A72F;
+	padding: 10px;
+	color:white;
+	
+	font-family: arial;
+	font-weight: bold;
+	cursor:pointer;
+}
+
+@media(min-width: 768px){
+
+	.selection-container{
+		display: flex;
+		
+		flex-wrap: wrap;
+	}
+
+	
+
+	.sugg-item:last-of-type{
+		display: flex;
+		border-left: 5px solid lightgray;
+	}
+
+
+	.nutr-grp{
+		display: flex;
+		flex-direction: row;
+	}
+
+	.nutr-grp div{
+		width:33%;
+		margin-left: 5px;
+	}
+
+
+
+}
+
+
